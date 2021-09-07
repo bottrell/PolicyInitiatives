@@ -1,0 +1,15 @@
+{
+    "policyRule": {
+        "if": {
+          "not": {
+            "field": "location",
+            "in": [
+              "global"
+            ]
+          }
+        },
+        "then": {
+          "effect": "deny"
+        }
+      }
+    }

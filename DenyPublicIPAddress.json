@@ -1,0 +1,16 @@
+{
+    "policyRule": {
+    "if": {
+      "anyOf": [
+        
+        {
+          "field": "type",
+          "like": "Microsoft.Network/publicIPAddresses*"
+        }
+      ]
+    },
+    "then": {
+      "effect": "deny"
+    }
+  }
+}
